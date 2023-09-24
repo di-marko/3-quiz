@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "What does '8-bit' refer to in the context of computing?",
+      "answers": [
+        "The number of colors in a display",
+        "A type of music genre",
+        "The number of bits in a byte",
+        "A type of video game controller"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following video game consoles is considered 8-bit?",
+      "answers": [
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo 64",
+        "Nintendo Entertainment System (NES)"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "In 8-bit color graphics, how many possible colors can be represented?",
+      "answers": ["256", "16", "64", "512"],
+      "correct": 0
+    },
+    {
+      "question": "Which musical genre is often associated with the sounds of 8-bit video games?",
+      "answers": ["Jazz", "Chiptune", "Rock", "Country"],
+      "correct": 1
+    },
+    {
+      "question": "In an 8-bit binary number, what is the maximum decimal value it can represent?",
+      "answers": ["128", "100", "512", "255"],
+      "correct": 3
+    },
+    {
+      "question": "What is the name of the 8-bit CPU used in the original Nintendo Entertainment System?",
+      "answers": [
+        "MOS Technology 6502",
+        "Intel 8080",
+        "Zilog Z80",
+        "Motorola 6800"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is NOT an 8-bit microcontroller?",
+      "answers": [
+        "Atmel ATmega328",
+        "Microchip PIC16F84",
+        "Intel 8080",
+        "Zilog Z80"
+      ],
+      "correct": 2
+    }
+  ]
+}

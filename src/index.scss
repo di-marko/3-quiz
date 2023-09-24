@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+:root {
+  --app-bg: #ffebd6;
+  --body-bg: #b3aed9;
+  --progress-bg: #e0e0e0;
+  --progress-fill: #98d4c4;
+  --button: #ffb6c1;
+  --font-clr: #000;
+  --list-border: #d1bfd2;
+  --list-hover: #ffdfe6;
+  --shadow-one: rgba(0, 0, 0, 0.2);
+  --shadow-two: rgba(0, 0, 0, 0.15);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--body-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin: 25px 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.App {
+  width: 500px;
+  padding: 30px;
+  position: relative;
+  background-color: var(--app-bg);
+  box-shadow: 3px 3px 0px var(--shadow-one), 6px 6px 0px var(--shadow-two);
+
+  .result {
+    text-align: center;
+
+    button {
+      font-size: 20px;
+      font-weight: bold;
+      padding: 15px 30px;
+      margin-top: 20px;
+      color: var(--font-clr);
+      background-color: var(--button);
+      box-shadow: 2px 2px 0px var(--shadow-one), 4px 4px 0px var(--shadow-two);
+      cursor: pointer;
+
+      &:active {
+        box-shadow: 1px 1px 0px var(--shadow-one);
+        transform: translate(1px, 1px);
+      }
+    }
+
+    h2 {
+      margin-bottom: 0;
+    }
+
+    .emoji-icon {
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .progress {
+    height: 30px;
+    background-color: var(--progress-bg);
+
+    &__inner {
+      height: 100%;
+      width: 80%;
+      background-color: var(--progress-fill);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding: 15px;
+      border: 2px solid var(--list-border);
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+      color: var(--font-clr);
+
+      &:hover {
+        background-color: var(--list-hover);
+      }
+    }
+  }
+}

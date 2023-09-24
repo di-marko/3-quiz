@@ -1,0 +1,3 @@
+# Ensure GitHub detects .js and .jsx files as JavaScript
+* linguist-vendored
+*.js linguist-vendored=false
