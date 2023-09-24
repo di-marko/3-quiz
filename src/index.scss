@@ -29,6 +29,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  user-select: none;
 }
 
 h1 {
@@ -91,11 +92,11 @@ h1 {
 
     li {
       padding: 15px;
-      border: 2px solid var(--list-border);
       margin-bottom: 10px;
-      cursor: pointer;
-      transition: all 0.1s ease-in-out;
+      border: 2px solid var(--list-border);
       color: var(--font-clr);
+      transition: all 0.1s ease-in-out;
+      cursor: pointer;
 
       &:hover {
         background-color: var(--list-hover);
